@@ -1,0 +1,26 @@
+{
+    "description": "TW5 on Android plugin pages",
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight"
+    ],
+    "languages": [                                        "fr-FR"                               ],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+    "build": {
+        "index": [
+	    "--output",
+	    "docs",
+            "--rendertiddler",
+            "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
+            "index.html",
+            "text/plain"
+        ],
+    	"config": {
+    	    "retain-original-tiddler-path": true
+    	}
+	}
+}
