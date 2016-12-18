@@ -1,5 +1,6 @@
 {
 	"directories": [
-		"../../../wikis/mobile/plugins/TW5onAndroidHowto"
+		"../../../wikis/mobile/plugins/TW5onAndroidHowto",
+		"../config"
 	]
 }
