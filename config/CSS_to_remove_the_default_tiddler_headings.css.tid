@@ -1,0 +1,15 @@
+created: 20161219100447087
+modified: 20161219103530330
+tags: $:/tags/Stylesheet
+title: CSS to remove the default tiddler headings
+type: text/css
+
+.tc-tagged-articles .tc-titlebar {
+display:none;
+}
+.tc-tagged-articles .tc-subtitle {
+display:none;
+}
+.tc-tagged-articles .tc-tags-wrapper {
+display:none;
+}

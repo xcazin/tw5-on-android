@@ -1,7 +1,7 @@
 color: #d76b86
 created: 20161108090059283
 modified: 20161216111006761
-title: tw5
+title: articles
 tags: $:/tags/SideBar
 caption: {{$:/language/SideBar/Contents/Caption}}
 list-after: $:/core/ui/SideBar/Open
@@ -9,6 +9,6 @@ type: text/vnd.tiddlywiki
 
 <div class="tc-table-of-contents">
 
-<<toc-selective-expandable 'tw5'>>
+<<toc-selective-expandable 'articles'>>
 
 </div>
