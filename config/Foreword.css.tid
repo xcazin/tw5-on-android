@@ -1,0 +1,20 @@
+created: 20161220080521127
+modified: 20161220085120161
+tags: articles $:/tags/Stylesheet
+title: CSS Avant-propos
+type: text/css
+
+.foreword {
+font-size: larger;
+}
+
+/* Remove the default tiddler headings */
+.tc-tagged-articles .tc-titlebar {
+display:none;
+}
+.tc-tagged-articles .tc-subtitle {
+display:none;
+}
+.tc-tagged-articles .tc-tags-wrapper {
+display:none;
+}
