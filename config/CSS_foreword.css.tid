@@ -1,0 +1,34 @@
+created: 20161220141212921
+modified: 20161231190704043
+tags: [[foreword to the tw5-on-android tutorial]] $:/tags/Stylesheet
+title: CSS foreword
+type: text/css
+
+/*As stated, here http://tiddlywiki.com/prerelease/#HTML%20in%20WikiText, an element with class intro will be parsed as a block only if there is two linefeeds beetween the element and the text */
+.foreword {
+    border: 1pt solid #220000;
+    background-color: #FDFCFC;
+    padding: 0px 1.5%;
+    margin: 0px;
+    /*arrondir les coins en haut à droite et en bas à gauche */
+    -moz-border-radius: 0 10px;
+    -webkit-border-radius: 0 10px;
+    border-radius: 0 10px;
+}
+.incipit::first-letter {
+ font-family: "mutlu_ornamental";
+    font-size: 200%;
+}
+input.customise {
+background: #FDFBFB;
+}
+/* Remove the default tiddler headings */
+.tc-tagged-articles .tc-titlebar {
+display:none;
+}
+.tc-tagged-articles .tc-subtitle {
+display:none;
+}
+.tc-tagged-articles .tc-tags-wrapper {
+display:none;
+}
